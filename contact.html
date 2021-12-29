@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Darlington Media</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/60e19fd7c5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <p class="logo">Darlington Media</p>
+                <nav id="navlinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </div>
+            <h2 class="faster">CONTACT US</h2>
+        </div>
+
+        <!-----contact------>
+        <div class="contact">
+            <div class="contt1">
+                <h3>Contact Info:</h3>
+                <p>At Darlington Media, we are concerned about delivering masterpieces<br> to our clients. We assign experts in web development, graphics design,<br> copywriting, branding and much more.</p>
+                <p><b>Phone Number: </b>+2347062696589</p>
+                <p><b>Email Id: </b>drblack15@yahoo.com</p>
+                <p><b>Address: </b>No 29 Ibipress street Oke Aro Akure</p>
+            </div>
+            <div class="contt1">
+                <form>
+                    <label>Your Name</label><br><input type="text" name="text" id="text"><br>
+                    <label>Your Email</label><br><input type="email" name="email" id="email"><br>
+                    <label>Your Message</label><br><textarea rows="8" id="message" name="message"></textarea><br>
+                    <input type="submit" value="Send Message" id="submit">
+                </form>
+            </div>
+        </div>
+
+    <!------footer------>
+<div class="footer foot">
+    <div class="foot-about">
+        <h2>About Us</h2>
+        <p>We are Darlington Media Technologies, a team of experts and<br> experienced brains in digital marketing and any other digital skills,<br> each committed to delivering results and exceeding expectations.</p>
+        <p>Using a wide variety of marketing tools we will develop comprehensive<br> online advertising strategies to deliver more visibility more visitors, more <br>leads, and more customers.</p>
+    </div>
+    <div class="foot-about">
+        <h2>Contact</h2>
+        <p><b>Phone No: </b>+2347062696589</p>
+        <p><b>Email Id: </b>drblack15@yahoo.com</p>
+        <p><b>Address: </b>29 Ibipress street Oke Aro Akure</p>
+        <div class="foot-img">
+            <a href><img src="images/facebook-2870.png"></a>
+            <a href><img src="images/whatsapp-logo-2449.png"></a>
+            <a href><img src="images/instagram-logo-8869.png"></a>
+        </div> 
+    </div>
+    <div class="foot-about">
+        <h2>Quick Links</h2>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="services.html">Services</a></p>
+        <p><a href="contact.html">Contact</a></p>
+    </div>
+</div>
+
+        
+        
+        <script>
+            let navLinks = document.getElementById("navlinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-250px";
+            }
+        </script>
+    </body>
+</html>
