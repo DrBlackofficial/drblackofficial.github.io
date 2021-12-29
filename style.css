@@ -283,14 +283,16 @@ hr{
 .main-hemm{
     display: flex;
     margin-left: 10px;
+    justify-content: center;
 }
 .main-hemm p{
     font-size: 15px;
 }
-.main-hemm img{
-    width: 25px;
+.main-hemm .fas{
+   font-size: 15px;
+   color: #0000ff;
     margin-right: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 .zero{
     text-decoration: none;
